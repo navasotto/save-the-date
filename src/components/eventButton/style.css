@@ -1,0 +1,40 @@
+.button {
+  transition: all 0.2s ease-in-out;
+  background-color: aquamarine;
+  color: rgb(184, 146, 146);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  background-color: lightblue;
+}
+
+.event-button {
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(92, 157, 238);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 5px;
+  cursor: pointer;
+}
+
+.event-button:hover {
+  transform: translateY(-5px);
+  background-color: rgb(37, 116, 189);
+}
+
+@media only screen and (min-width: 768px) {
+
+  .button,
+  .event-button {
+    font-size: 12px;
+    padding: 15px 30px;
+  }
+}

@@ -1,0 +1,9 @@
+.Event-details {
+  text-align: center;
+}
+
+.Event-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
